@@ -1,0 +1,101 @@
+<!--Name:Tenzing kunsang sherpa -->
+<!--University id: 2408616 --> 
+<!DOCTYPE html>
+   <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather app</title>
+
+        <link rel="stylesheet" href="weather.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- nav bar with header -->
+    </head>
+    <body>
+        <!-- inserting the nav bar icon and bar-->
+ <header>
+    <div class="nav_bar"> 
+     <div class="weather_icon"> <i class='bx bx-sun'></i>Weather_</div>
+    <nav>
+       <ul class="nav">
+       <li><a href="About">About us</li></a> 
+       <li><a href="https://u31lbw3nwje.typeform.com/to/T7rr9VX2">Feedback<li></a> 
+       <li><a href="Weather_news">Weather news</a></li>
+       </ul>
+      </nav> 
+      </div>
+    </header>
+
+    <div class="container"></div> </div>
+         
+        <div class="box"> 
+
+
+      <div class="search-bar"> 
+      <input type="text" placeholder="Enter a city" id="searchBox" name="q">
+      <button class="bx bx-search" id="searchButton"> </button>
+      </div>
+       <div class="weather_box"> 
+            <div class="container"> 
+                 <div class="weather_info">
+                     <div class="weather">
+                        <h2 class="city"> </h2>
+                             <p class="temperature"></p>
+                                <p class="status"></p>
+                                 <img class="icon" src="https://cdn1.iconfinder.com/data/icons/weather-471/128/SUN-512.png" alt="Weather">
+                                      <div class="weather_details"> 
+                                         <div id="date"> <span> 2<sup>nd </sup>January,2024 </span> 
+                                           <p id="time"></p>
+                                        </div>
+                                          <i class='bx bx-water'>
+                                               <span>Humidity:</span>
+                                                <div class="humidity_info">
+                                                <span id="humidity-data">0%</span>
+                                             </div>
+                                         </i>
+                              <div class="wind_speed">
+                              <i class="bx bx-wind">
+                              <span>Wind speed:</span>
+                                 <div class="wind-speed">
+                                </div>
+                            </i>
+                            <div class='pressure-details'>
+                            <i class="bx bx-timer">
+                            <p> Pressure:</p>
+                            <div class="pressure"> 
+                           <span>0%</span>
+                      </div>
+                   </i>  
+               </div>
+            </div>
+         </div>
+        </div>
+    </div>
+ </div> 
+ </div>    
+  <button class="past-button"> 
+    View past data 
+  </button>
+        <div class="past-data"> 
+            
+            <h2 class="past-header"></h2>
+            <div class="pasthsitory">
+                <ul class="weather-list">
+                </div>
+                <div class="error-box" style="display: none;">
+                    Invalid city! Please enter a valid city name.
+                </div>
+                
+ <footer> 
+    <div class="footer_nav">
+        <nav>
+            <ul class="nav_footer">
+                <li>&copy; Copyright tenzing_kunsang_sherpa(2408616)</li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+    <script src="weather.js"> </script> 
+    </body>
+</html>
+
